@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#524247</color>
+    <color name="color_primary_dark">#362b2f</color>
+    <color name="color_accent">#362b2f</color>
+
+    <color name="ticker_text">#ffffff</color>
+    <color name="ticker_arrow">#ffffff</color>
+
+    <color name="tint">#cccccc</color>
+
+    <color name="peso">#7EB849</color>
+    <color name="bitcoin">#E8BA4C</color>
+    <color name="ethereum">#745B95</color>
+    <color name="ripple">#6297C5</color>
+    <color name="litecoin">#A7B1AF</color>
+    <color name="bitcoin_cash">#C44E50</color>
+
+    <color name="graph_value">#362b2f</color>
+
+    <color name="intro_api">@color/color_primary</color>
+    <color name="intro_success">#6297C5</color>
+    <color name="intro_text">#FFFFFF</color>
+
+    <color name="notification_text">#FFFFFF</color>
+</resources>

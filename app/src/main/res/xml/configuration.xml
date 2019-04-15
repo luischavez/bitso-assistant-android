@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.luischavezb.bitso.assistant.android.preferences.BookListPreference
+        android:key="@string/configuration_book"
+        android:title="@string/configuration_book_title" />
+    <com.luischavezb.bitso.assistant.android.preferences.BookMultiListPreference
+        android:key="@string/configuration_tickers"
+        android:title="@string/configuration_tickers_title" />
+    <PreferenceScreen
+        android:key="@string/configuration_notifications"
+        android:title="@string/configuration_notifications_title">
+        <PreferenceCategory android:title="@string/configuration_notifications_title">
+            <RingtonePreference
+                android:key="@string/configuration_notification_lt_sound"
+                android:ringtoneType="notification"
+                android:showDefault="true"
+                android:title="@string/configuration_notification_lt_sound_title" />
+            <RingtonePreference
+                android:key="@string/configuration_notification_eq_sound"
+                android:ringtoneType="notification"
+                android:showDefault="true"
+                android:title="@string/configuration_notification_eq_sound_title" />
+            <RingtonePreference
+                android:key="@string/configuration_notification_gt_sound"
+                android:ringtoneType="notification"
+                android:showDefault="true"
+                android:title="@string/configuration_notification_gt_sound_title" />
+            <RingtonePreference
+                android:key="@string/configuration_notification_buy_sound"
+                android:ringtoneType="notification"
+                android:showDefault="true"
+                android:title="@string/configuration_notification_buy_sound_title" />
+            <RingtonePreference
+                android:key="@string/configuration_notification_sell_sound"
+                android:ringtoneType="notification"
+                android:showDefault="true"
+                android:title="@string/configuration_notification_sell_sound_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <EditTextPreference
+        android:defaultValue="20"
+        android:inputType="number"
+        android:key="@string/configuration_update_interval"
+        android:title="@string/configuration_update_interval_title" />
+    <CheckBoxPreference
+        android:key="@string/configuration_use_fingerprint"
+        android:title="@string/configuration_use_fingerprint_title" />
+    <PreferenceCategory android:title="@string/configuration_about">
+        <PreferenceScreen
+            android:key="@string/configuration_developer"
+            android:summary="@string/developer"
+            android:title="@string/configuration_developer_title"></PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="@string/configuration_version"
+            android:title="@string/configuration_version_title"></PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

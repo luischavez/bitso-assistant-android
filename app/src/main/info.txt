@@ -1,0 +1,21 @@
+Próximamente estaré publicando una aplicación para Android compatible con Bitso. 
+
+Algunas de las características de la app son las siguientes: 
+
+Creación de órdenes de compra/venta de tipo limitada. 
+
+Visualización de los movimientos de la cuenta (fondeos, intercambios y retiros). 
+
+Gráficas de valor y volumen del mercado. 
+
+Información de intercambios en tiempo real. 
+
+Información de la cuenta. 
+
+Perfiles automáticos de Compra, Venta y Compra/Venta. 
+
+Notificaciones del valor actual de las criptomonedas. 
+
+Alarmas. 
+
+Toda la funcionalidad básica de Bitso será gratis, con opción de actualizar a premium para quitar limitantes en la creación de perfiles automáticos y eliminar la publicidad. 

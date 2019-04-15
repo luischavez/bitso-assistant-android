@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_menu_item"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_item_home" />
+    <item
+        android:id="@+id/account_menu_item"
+        android:icon="@drawable/ic_account"
+        android:title="@string/menu_item_account" />
+    <item
+        android:id="@+id/buy_menu_item"
+        android:icon="@drawable/ic_buy"
+        android:title="@string/menu_item_buy" />
+    <item
+        android:id="@+id/sell_menu_item"
+        android:icon="@drawable/ic_sell"
+        android:title="@string/menu_item_sell" />
+    <item
+        android:id="@+id/trade_menu_item"
+        android:icon="@drawable/ic_trade"
+        android:title="@string/menu_item_trade" />
+    <item
+        android:id="@+id/chart_menu_item"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/menu_item_chart" />
+    <group android:id="@+id/submenu_1">
+        <item
+            android:id="@+id/service_menu_item"
+            android:icon="@drawable/ic_service"
+            android:title="@string/menu_item_service"
+            app:actionLayout="@layout/partial_service_switch" />
+        <item
+            android:id="@+id/alarms_menu_item"
+            android:icon="@drawable/ic_alarm"
+            android:title="@string/menu_item_alarms" />
+        <item
+            android:id="@+id/premium_menu_item"
+            android:icon="@drawable/ic_crown"
+            android:title="@string/menu_item_premium" />
+        <item
+            android:id="@+id/configuration_menu_item"
+            android:icon="@drawable/ic_cog"
+            android:title="@string/menu_item_configuration" />
+    </group>
+</menu>

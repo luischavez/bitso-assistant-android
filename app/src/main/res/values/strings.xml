@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bitso Assistant</string>
+
+    <string name="developer">Luis Chávez</string>
+
+    <string name="api_base_url">https://apibitsocom</string>
+    <string name="api_dev_base_url">https://dev.bitso.com</string>
+
+    <string name="iab_public_key_base64">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2ghdD1nQFsLniZGBai4xNDvDksETs2j9W6uvIGxcDuk3CZxNJoEYwS/4AgTcWLjqfHlxpxqDrBEx+QJY/zWYgBRs4F3Jq05zo6ZI13TVPF9yMzv4xfBCK9XbnIm5zqgBJdiki25XVVxph3swpNI37HJfnABUEfF3LjklXUux1L6lfQuZfx/vJEJ0pg+KYESxE9wT6Bywe2uzeo38xH0XE7V+P99vCQtybetAsew9g9Am4Twv7afiuPm8Sr2Ttfoszdo5hRGWiMCD5iUmBeAPECivDdKUhXg2aTdfxqIV5WET+LYbByBorXn6/OXU+e43O424uEJTVrar1tLL0Z3trwIDAQAB</string>
+
+    <string name="ad_id">ca-app-pub-8506152933780791~1085979797</string>
+    <string name="ad_unit_id">ca-app-pub-8506152933780791/1692484453</string>
+
+    <string name="notification_foreground">Segundo Plano</string>
+    <string name="notification_tickers">Precio Actual</string>
+    <string name="notification_alarm_lt">Precio Menor</string>
+    <string name="notification_alarm_eq">Precio Igual</string>
+    <string name="notification_alarm_gt">Precio Mayor</string>
+    <string name="notification_alarm_buy">Compra automatica</string>
+    <string name="notification_alarm_sell">Venta automatica</string>
+
+    <string name="use_profiles">use_profiles</string>
+
+    <string name="intro_success_title">¡Felicidades!</string>
+    <string name="intro_success_description">Ya puede comenzar a utilizar tu cuenta de bitso.</string>
+
+    <string name="valid_api_key_secret">API Clave/Secreto validos</string>
+    <string name="invalid_api_key_secret">API Clave/Secreto inválidos </string>
+    <string name="invalid_nip">El NIP no es valido</string>
+
+    <string name="menu_item_reload">Actualizar</string>
+    <string name="menu_item_ok">Ok</string>
+
+    <string name="menu_item_home">Inicio</string>
+    <string name="menu_item_account">Cuenta</string>
+    <string name="menu_item_buy">Compra</string>
+    <string name="menu_item_sell">Vende</string>
+    <string name="menu_item_trade">Intercambios</string>
+    <string name="menu_item_chart">Grafica</string>
+    <string name="menu_item_service">Perfiles</string>
+    <string name="menu_item_alarms">Alarmas</string>
+    <string name="menu_item_premium">Premium</string>
+    <string name="menu_item_configuration">Configuración</string>
+
+    <string name="fingerprint_dialog_notice">O utiliza tu huella digital</string>
+
+    <string name="name">Nombre</string>
+    <string name="email">Correo</string>
+    <string name="phone">Teléfono </string>
+    <string name="status">Estatus</string>
+
+    <string name="update_credentials">Actualizar Credenciales</string>
+
+    <string name="one_year">1 Año</string>
+    <string name="three_months">3 Meses</string>
+    <string name="one_month">1 Mes</string>
+    <string name="all">Todo</string>
+
+    <string name="api_key">Llave Publica</string>
+    <string name="api_secret">Clave Secreta</string>
+    <string name="nip">NIP (Utiliza un NIP nuevo, es para uso interno)</string>
+
+    <string name="use_fingerprint">Usar huella digital</string>
+
+    <string name="api_key_notice">Obtén tu llave publica y clave secreta en la página oficial</string>
+    <string name="api_key_url">https://bitso.com/api_setup</string>
+
+    <string name="register_notice">Si no tienes una cuenta regístrate en</string>
+    <string name="register_url">https://bitso.com/register</string>
+
+    <string name="trade_buy_posture">Posturas de Compra</string>
+    <string name="trade_sell_posture">Posturas de Venta</string>
+
+    <string name="price">Precio</string>
+
+    <string name="amount_to_get">Monto a Recibir</string>
+    <string name="amount_to_sell">Monto a Vender</string>
+    <string name="amount_to_buy">Monto a Gastar</string>
+    <string name="price_in">Precio (%1$s)</string>
+    <string name="total_in">Total: %1$s %2$s</string>
+
+    <string name="amount_in">Monto: %1$s</string>
+
+    <string name="equals_price">Igualar Precio</string>
+    <string name="place_buy_order">Colocar Orden de Compra</string>
+    <string name="place_sell_order">Colocar Orden de Venta</string>
+
+    <string name="total_combined">Total, Combinado en Pesos</string>
+
+    <string name="balance_chart_label">Saldos</string>
+
+    <string name="pending">Pendiente</string>
+    <string name="complete">Completo</string>
+    <string name="cancelled">Cancelado</string>
+
+    <string name="cost_format">Costo: %1$s</string>
+
+    <string name="fee_format">Cuota: %1$s</string>
+    <string name="price_format">Precio: %1$s</string>
+
+    <string name="method_format">Método: %1$s</string>
+    <string name="status_format">Estatus: %1$s</string>
+
+    <string name="configuration_book_title">Libro preferido</string>
+    <string name="configuration_book">book</string>
+    <string name="configuration_update_interval_title">Intervalo de actualización (segundos)</string>
+    <string name="configuration_update_interval">update_interval</string>
+    <string name="configuration_use_fingerprint_title">Usar huella digital</string>
+    <string name="configuration_use_fingerprint">use_fingerprint</string>
+    <string name="configuration_tickers_title">Notificaciones en segundo plano</string>
+    <string name="configuration_tickers">tickers</string>
+
+    <string name="configuration_about">Acerca de</string>
+    <string name="configuration_developer_title">Desarrollador</string>
+    <string name="configuration_developer">configuration_developer</string>
+    <string name="configuration_version_title">Versión</string>
+    <string name="configuration_version">configuration_version</string>
+
+    <string name="configuration_notifications_title">Notificaciones</string>
+    <string name="configuration_notifications">notifications</string>
+    <string name="configuration_notification_lt_sound_title">Precio menor</string>
+    <string name="configuration_notification_lt_sound">notification_lt_sound</string>
+    <string name="configuration_notification_eq_sound_title">Precio igual</string>
+    <string name="configuration_notification_eq_sound">notification_eq_sound</string>
+    <string name="configuration_notification_gt_sound_title">Precio mayor</string>
+    <string name="configuration_notification_gt_sound">notification_gt_sound</string>
+    <string name="configuration_notification_buy_sound_title">Compra automatica</string>
+    <string name="configuration_notification_buy_sound">notification_buy_sound</string>
+    <string name="configuration_notification_sell_sound_title">Venta automatica</string>
+    <string name="configuration_notification_sell_sound">notification_sell_sound</string>
+
+    <string name="notifications_notice">Para utilizar las alarmas, activa las notificaciones en segundo plano. </string>
+
+    <string name="daily_chart_label">Limite Diario</string>
+    <string name="monthly_chart_label">Limite Mensual</string>
+
+    <string name="pin_dialog_success">Se valido la información</string>
+    <string name="pin_dialog_error">Información incorrecta</string>
+
+    <string name="progress_place_order">Se está colocando la orden</string>
+    <string name="progress_cancel_order">Se está cancelando la orden</string>
+    <string name="progress_get_fundings">Obteniendo fondeos</string>
+    <string name="progress_get_trades">Obteniendo intercambios</string>
+    <string name="progress_get_withdrawals">Obteniendo retiros</string>
+    <string name="progress_validating_api">Validando API key/secret</string>
+    <string name="progress_validating_nip">Validando NIP</string>
+    <string name="progress_get_account">Obteniendo información de la cuenta</string>
+    <string name="progress_get_balances">Obteniendo balances</string>
+    <string name="progress_deleting_account">Eliminando la información de la cuenta anterior</string>
+    <string name="progress_get_histories">Obteniendo historial</string>
+    <string name="progress_get_orders">Obteniendo ordenes</string>
+    <string name="progress_get_tickers">Obteniendo valores</string>
+    <string name="progress_get_funding_destination">Obteniendo información de %1$s</string>
+    <string name="progress_download_gravatar">Descargando avatar</string>
+
+    <string name="buy_order_count">órdenes de Compra</string>
+    <string name="sell_order_count">órdenes de Venta</string>
+
+    <string name="enabled">Activado</string>
+    <string name="max_amount">Monto máximo</string>
+    <string name="max_price">Precio</string>
+    <string name="sell_at">Porcentaje de ganancias</string>
+    <string name="automatic">Ajustar el precio automáticamente</string>
+    <string name="time_reset_automatic">Regresar al precio inicial después de (segundos)</string>
+    <string name="max_orders">Máximo número de ordenes simultaneas</string>
+    <string name="time_between_buys">Tiempo mínimo entre operaciones (segundos)</string>
+    <string name="use_fee">Tomar en cuenta la comisión</string>
+    <string name="disable_at_buy">Desactivar al comprar</string>
+    <string name="disable_at_sell">Desactivar al vender</string>
+
+    <string name="required">Requerido</string>
+
+    <string name="profile">Perfil</string>
+
+    <string-array name="profile_menu">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+    <string name="order">Orden</string>
+
+    <string-array name="order_menu">
+        <item>Eliminar</item>
+    </string-array>
+
+    <string name="alarm">Alarma</string>
+
+    <string-array name="alarm_menu">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+    <string name="high">MÁXIMO</string>
+    <string name="low">MÍNIMO</string>
+    <string name="ask">VENTA</string>
+    <string name="bid">COMPRA</string>
+    <string name="volume">VOLÚMEN</string>
+
+    <string name="copy_to_clipboard">Se copio "%1$s" al portapapeles</string>
+
+    <string name="new_account_notice">Las credenciales no corresponden a tu cuenta actual, Si continuas se eliminara la información de tu cuenta actual</string>
+
+    <string name="confirm_place_order_notice">Para colocar la orden ingresa tu NIP</string>
+    <string name="confirm_delete_order_notice">Para eliminar la orden ingresa tu NIP</string>
+
+    <string name="confirm_new_profile_notice">Para crear el perfil ingresa tu NIP</string>
+    <string name="confirm_edit_profile_notice">Para editar el perfil ingresa tu NIP</string>
+    <string name="confirm_delete_profile_notice">Para eliminar el perfil ingresa tu NIP</string>
+    <string name="confirm_save_profile_notice">Para guardar el perfil ingresa tu NIP</string>
+    <string name="confirm_change_service_notice">Para activar/desactivar el servicio ingresa tu NIP</string>
+    <string name="confirm_edit_credentials_notice">Para editar tus credenciales ingresa tu NIP</string>
+    <string name="confirm_save_credentials_notice">Para guardar tus credenciales ingresa tu NIP</string>
+
+    <string name="api_error">Ocurrió un error al procesar la petición</string>
+    <string name="api_error_invalid_credentials">Credenciales invalidas</string>
+
+    <string name="change_to_premium">Volverme premium</string>
+    <string name="not_premium_notice">Obtén acceso premium para desbloquear más funcionalidades, como la creación de múltiples perfiles de compra/venta y ordenes simultaneas</string>
+    <string name="not_premium_ad_notice">Obtendrás más funcionalidades además de eliminar la publicidad</string>
+    <string name="not_premium_profile_notice">Para crear más de un perfil actualiza tu cuenta a premium</string>
+    <string name="not_premium_amount_notice">Para crear ordenes con un monto mayor a %1$s actualiza tu cuenta a premium</string>
+    <string name="not_premium_book_notice">Para crear perfiles de %1$s actualiza tu cuenta a premium</string>
+
+    <string name="premium_upgrade_success">¡Felicidades! Ya eres usuario premium</string>
+    <string name="premium_upgrade_error">Ocurrió un error al procesar tu petición</string>
+
+    <string name="premium_user_notice">¡Ya eres usuario premium!</string>
+    <string name="premium_notice">Gracias por apoyar el desarrollo de Bitso Assistant, como usuario premium puedes disfrutar de más funcionalidades además de eliminar la publicidad</string>
+    <string name="premium_contact_notice">Si tienes alguna duda o sugerencia puedes contactarme en</string>
+    <string name="premium_contact">contacto@luischavezb.com</string>
+
+    <string name="more_info">Mas información</string>
+    <string name="less_info">Menos información</string>
+
+    <string name="debug_on">Este programa se está ejecutando en modo de depuramiento</string>
+
+    <string name="service_notification_title">Se está ejecutando el servicio de Bitso Assistant</string>
+    <string name="service_notification_content">Presiona para finalizar el servicio.</string>
+    <string name="service_notification_profiles">%1$d perfiles activos.</string>
+
+    <string name="profiles_notification">Perfiles: %1$d Compras pendientes: %2$d Ventas pendientes: %3$d</string>
+
+    <string name="value">Valor</string>
+
+    <string name="less_than">Menor a</string>
+    <string name="greater_than">Mayor a</string>
+    <string name="same">Igual a</string>
+
+    <string name="less_than_notice">El valor de %1$s es menor a %2$s</string>
+    <string name="greater_than_notice">El valor de %1$s es mayor a %2$s</string>
+    <string name="same_notice">El valor de %1$s es igual a %2$s</string>
+    <string name="automatic_buy_notice">Se coloco una orden de compra de %1$s a %2$s</string>
+    <string name="automatic_sell_notice">Se coloco una orden de venta de %1$s a %2$s</string>
+
+    <string name="spei">SPEI</string>
+
+    <string name="buy">COMPRA</string>
+    <string name="sell">VENTA</string>
+</resources>
